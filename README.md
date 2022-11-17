@@ -1,3 +1,30 @@
+# Projet pour tester différents framework css
+
+### `Styled-components`
+
+Très simple à mettre en place et à utiliser. Permet de passer des variables en props afin de rendre le style des composants dynamique.
+Documentation limpide !
+
+### `Tailwindcss`
+
+Simple à mettre en place, à customiser et très rapide à l'utilisation.
+En revanche, plus compliqué de rendre dynamique le css (notament pour passer des variables de couleur pour modifier un background,color,etc).
+Documentation au top !
+
+### `@Emotion`
+
+Très proche de Styled-components, l'écriture des composants stylisés est sensiblement la même.
+En revanche, la documentation est moins fournie et moins intuitive de l'installation du framwork jusqu'à l'utilisation.
+Plusieurs librairies sont à installer pour que l'on puisse pleinement utiliser le framework :
+"@emotion/react",
+"@emotion/styled",
+"@emotion/core",
+"@emotion/babel-preset-css-prop",
+
+Comparatif sur ce site : https://stackshare.io/stackups/styled-components-vs-emotion-vs-tailwind-css
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
